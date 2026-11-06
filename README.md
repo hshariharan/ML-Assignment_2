@@ -37,6 +37,25 @@ project-folder/
 ├── requirements.txt
 ├── test_data.csv
 └── README.md
+
+ML-Assignment_2/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── test_data.csv
+│
+├── model/
+│   ├── logistic_regression.pkl
+│   ├── decision_tree.pkl
+│   ├── knn.pkl
+│   ├── naive_bayes.pkl
+│   ├── support_vector_machine.pkl
+│   └── scaler.pkl
+│
+└── train_model.py
+
+
 ```
 
 ## d. Models Used & Performance Comparison
