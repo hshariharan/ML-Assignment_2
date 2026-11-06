@@ -45,7 +45,7 @@ project-folder/
 All five classification models were trained using standard preprocessing techniques (`StandardScaler`) and evaluated using the following performance metrics.
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
-|:---|---:|---:|---:|---:|---:|---:|
+|---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.9825 | 0.9954 | 0.9825 | 0.9825 | 0.9825 | 0.9623 |
 | Decision Tree | 0.9123 | 0.9157 | 0.9161 | 0.9123 | 0.9130 | 0.8174 |
 | KNN | 0.9561 | 0.9788 | 0.9561 | 0.9561 | 0.9560 | 0.9054 |
