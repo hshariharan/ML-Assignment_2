@@ -38,6 +38,25 @@ project-folder/
 ├── test_data.csv
 └── README.md
 
+
+## d. Models Used & Performance Comparison[cite: 516]
+All five classification models were trained using standard preprocessing protocols (`StandardScaler`) and evaluated on the held-out test dataset (`test_data.csv`)[cite: 513].
+
+| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Logistic Regression** | 0.9825 | 0.9954 | 0.9825 | 0.9825 | 0.9825 | 0.9623 |
+| **Decision Tree** | 0.9123 | 0.9157 | 0.9161 | 0.9123 | 0.9130 | 0.8174 |
+| **KNN** | 0.9561 | 0.9788 | 0.9561 | 0.9561 | 0.9560 | 0.9054 |
+| **Naive Bayes** | 0.9298 | 0.9868 | 0.9298 | 0.9298 | 0.9298 | 0.8492 |
+| **Support Vector Machine** | 0.9825 | 0.9950 | 0.9825 | 0.9825 | 0.9825 | 0.9623 |
+
+---
+
+
+
+
+
+
 ## d. Models Used & Performance Comparison
 All five classification models were trained using standard preprocessing protocols (StandardScaler) and evaluated on the held-out test dataset (`test_data.csv`).
 
