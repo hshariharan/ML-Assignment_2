@@ -62,5 +62,5 @@ All five classification models were trained using standard preprocessing protoco
 | Naive Bayes | Achieved 92.98% accuracy. While its conditional independence assumption is heavily violated by correlated medical features, it still provided a reliable baseline and high AUC (0.9868). |
 | Support Vector Machine | Matched Logistic Regression with 98.25% accuracy and 0.9623 MCC. The Radial Basis Function (RBF) kernel successfully mapped complex non-linear interactions while maintaining a maximum margin separator. |
 | **Overall, Winner for your dataset?** | **Logistic Regression & Support Vector Machine (Tie)**. Both models achieved the highest accuracy, F1-score, and Matthews Correlation Coefficient (MCC), proving most optimal for medical diagnosis classification tasks where false negatives must be tightly controlled. |
-```[cite: 484, 485, 509]
+```
 
