@@ -6,7 +6,7 @@ The project demonstrates a real-world machine learning deployment workflow inclu
 
 ## Submission Links
 * **GitHub Repository Link:** [https://github.com/hshariharan/ML-Assignment_2](https://github.com/hshariharan/ML-Assignment_2)[cite: 482, 484]
-* **Live Streamlit App Link:** [Insert your live Streamlit app URL here][cite: 482]
+* **Live Streamlit App Link:** [[Insert your live Streamlit app URL here](https://ml-assignment2-bkspvpaeiadmdpejebevu5.streamlit.app/)][cite: 482]
 
 ---
 
