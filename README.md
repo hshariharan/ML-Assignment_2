@@ -39,31 +39,18 @@ project-folder/
 └── README.md
 
 
-## d. Models Used & Performance Comparison
-All five classification models were trained using standard preprocessing protocols (`StandardScaler`) and evaluated on the held-out test dataset (`test_data.csv`).
+
+### d. Models Used & Performance Comparison
+
+All five classification models were trained using standard preprocessing techniques (`StandardScaler`) and evaluated using the following performance metrics.
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+|:---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.9825 | 0.9954 | 0.9825 | 0.9825 | 0.9825 | 0.9623 |
 | Decision Tree | 0.9123 | 0.9157 | 0.9161 | 0.9123 | 0.9130 | 0.8174 |
 | KNN | 0.9561 | 0.9788 | 0.9561 | 0.9561 | 0.9560 | 0.9054 |
 | Naive Bayes | 0.9298 | 0.9868 | 0.9298 | 0.9298 | 0.9298 | 0.8492 |
 | Support Vector Machine | 0.9825 | 0.9950 | 0.9825 | 0.9825 | 0.9825 | 0.9623 |
-
----
-
-## e. Model Performance Observations & Winner
-
-| ML Model Name | Observation about model performance |
-| :--- | :--- |
-| Logistic Regression | Achieved exceptional performance (98.25% accuracy and 0.9954 AUC). The linear decision boundary fits the scaled biomedical feature space very cleanly with minimal false positives or false negatives. |
-| Decision Tree | Exhibited lower accuracy (91.23%) relative to linear models due to its inherent susceptibility to variance and partitioning boundaries on continuous numerical data without pruning constraints. |
-| KNN | Performed strongly with 95.61% accuracy. Feature scaling (`StandardScaler`) played a vital role in ensuring Euclidean distance computations treated all 30 features with equal relative weight. |
-| Naive Bayes | Achieved 92.98% accuracy. While its conditional independence assumption is heavily violated by correlated medical features, it still provided a reliable baseline and high AUC (0.9868). |
-| Support Vector Machine | Matched Logistic Regression with 98.25% accuracy and an MCC of 0.9623. The Radial Basis Function (RBF) kernel successfully mapped complex non-linear interactions while maintaining a maximum margin separator. |
-| **Overall, Winner for your dataset?** | **Logistic Regression & Support Vector Machine (Tie)**. Both models achieved the highest accuracy, F1-score, and Matthews Correlation Coefficient (MCC), proving most optimal for medical diagnosis classification tasks where false negatives must be tightly controlled. |
-
----
 
 
 
