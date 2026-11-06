@@ -39,25 +39,6 @@ project-folder/
 └── README.md
 ```
 
-
-
-### d. Models Used & Performance Comparison
-
-All five classification models were trained using standard preprocessing techniques (`StandardScaler`) and evaluated using the following performance metrics.
-
-| ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
-|---|---:|---:|---:|---:|---:|---:|
-| Logistic Regression | 0.9825 | 0.9954 | 0.9825 | 0.9825 | 0.9825 | 0.9623 |
-| Decision Tree | 0.9123 | 0.9157 | 0.9161 | 0.9123 | 0.9130 | 0.8174 |
-| KNN | 0.9561 | 0.9788 | 0.9561 | 0.9561 | 0.9560 | 0.9054 |
-| Naive Bayes | 0.9298 | 0.9868 | 0.9298 | 0.9298 | 0.9298 | 0.8492 |
-| Support Vector Machine | 0.9825 | 0.9950 | 0.9825 | 0.9825 | 0.9825 | 0.9623 |
-
-
-
-
-
-
 ## d. Models Used & Performance Comparison
 All five classification models were trained using standard preprocessing protocols (StandardScaler) and evaluated on the held-out test dataset (`test_data.csv`).
 
@@ -82,6 +63,4 @@ All five classification models were trained using standard preprocessing protoco
 | Support Vector Machine | Matched Logistic Regression with 98.25% accuracy and 0.9623 MCC. The Radial Basis Function (RBF) kernel successfully mapped complex non-linear interactions while maintaining a maximum margin separator. |
 | **Overall, Winner for your dataset?** | **Logistic Regression & Support Vector Machine (Tie)**. Both models achieved the highest accuracy, F1-score, and Matthews Correlation Coefficient (MCC), proving most optimal for medical diagnosis classification tasks where false negatives must be tightly controlled. |
 ```[cite: 484, 485, 509]
-
-
 
