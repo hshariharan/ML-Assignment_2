@@ -25,19 +25,6 @@ The objective of this project is to build, evaluate, and deploy a robust binary 
 
 ## c. Project Structure
 ```text
-project-folder/
-├── model/
-│   ├── logistic_regression.pkl
-│   ├── decision_tree.pkl
-│   ├── knn.pkl
-│   ├── naive_bayes.pkl
-│   ├── support_vector_machine.pkl
-│   └── scaler.pkl
-├── app.py
-├── requirements.txt
-├── test_data.csv
-└── README.md
-
 ML-Assignment_2/
 │
 ├── app.py
