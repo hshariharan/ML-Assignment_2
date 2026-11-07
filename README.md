@@ -58,7 +58,7 @@ All five classification models were trained using standard preprocessing protoco
 
 ---
 
-## e. Model Performance Observations & Winner
+ ## Model Performance Observations & Winner
 
 | ML Model Name | Observation about model performance |
 | :--- | :--- |
