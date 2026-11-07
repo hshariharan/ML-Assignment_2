@@ -17,7 +17,7 @@ The objective of this project is to build, evaluate, and deploy a robust binary 
 
 ## b. Dataset Description
 * **Dataset Used:** Breast Cancer Wisconsin (Diagnostic) Dataset (sourced via Scikit-Learn / UCI Machine Learning Repository).
-* **Total Instances:** 569 samples[cite: 488] (Split: 455 training samples, 114 test samples)[cite: 488].
+* **Total Instances:** 569 samples (Split: 455 training samples, 114 test samples).
 * **Feature Size:** 30 continuous input features describing nuclear characteristics (e.g., radius, texture, perimeter, area, smoothness, concavity).
 * **Target Variable:** Binary classification (`0` = Malignant, `1` = Benign).
 
